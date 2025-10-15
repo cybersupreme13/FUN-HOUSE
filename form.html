@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Opinión</title>
+    <link rel="shortcut icon" href="Images/Icon.png" type="image/png">
+    <link rel="stylesheet" href="CodigosCSS/Estiloform.css">
+</head>
+<body>
+     <nav>
+            <ul>
+                <li><a href="Mi2SitioWeb.html">Pagina principal</a></li>
+                <li><a href="index.html">Sobre Nosotros</a></li>
+                <li><a href="Pagina_Emprendimiento.html">Emprendimiento</a></li>
+            </ul>
+        </nav>
+    <header>
+        <h1>Ingrese sus datos para continuar...</h1>
+    </header>
+    <form action="/submit" method="post">
+        <label for="Nombre">Nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre"><br><br>
+
+        <label for="Correo">Email</label><br>
+        <input type="email" id="Correo" name="Correo"><br><br>
+
+        <label for="contraseña">Password</label><br>
+        <input type="password" id="contraseña" name="contraseña"><br><br>
+
+        <label for="reseña">Dar tu opinión sobre la serie</label><br>
+        <textarea id="reseña" name="reseña" rows="4"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
